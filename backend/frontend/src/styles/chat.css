@@ -1,0 +1,105 @@
+.chat-main-outer{
+    height: calc(100vh - 58px) !important;
+    width: 100% !important;
+    margin-top: 58px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    place-items: center !important;
+}
+
+.first-slide{
+    height: 100% !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    place-items: center !important;
+}
+
+.second-slide{
+    display: flex;
+    height: 100% !important;
+    width: 100% !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    place-items: center !important;
+}
+
+.title-and-search-bar{
+    display: flex !important;
+    flex-direction: row !important;
+    column-gap: 2rem !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 2rem auto .7rem !important;
+    /* min-width: 400px !important; */
+}
+
+#my-search-bar-wrapper{
+    border: none !important;
+    outline: none !important;
+    border-radius: .4rem !important;
+}
+
+#my-search-bar{
+    display: flex !important;
+    flex-direction: row !important;
+    border-radius: .3rem !important;
+    outline: none !important;
+    border: none !important;
+    overflow: hidden !important;
+    transition: 250ms !important;
+    background: #2293ef !important;
+}
+
+.friends-title{
+    font-family: 'poppins' !important;
+    font-size: xx-large;
+    font-weight: 400;
+    padding: .3rem .7rem .3rem;
+    border-bottom: 2.5px solid #1261a0;
+    width: max-content !important;
+    display: flex;
+    border-radius: .3rem;
+}
+
+.active-user-image{
+    cursor: pointer !important;
+}
+
+.scroll-down-div{
+    display: flex;
+    position: absolute !important;
+    height: fit-content !important;
+    width: fit-content !important;
+    padding: .5rem;
+    border-radius: 50%;
+    top: 83.5%;
+    left: 91.8%;
+    cursor: pointer;
+    z-index: 99999;
+    background: #1261a0;
+}
+
+.scroll-down-btn{
+    display: flex;
+    position: relative !important;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.emoji-class{
+    position: absolute !important;
+    margin: 1rem !important;
+    justify-self: flex-end !important;
+    align-self: flex-start !important;
+    top: 32% !important;
+}
+
+.add-emoji-input-icon{
+    color: #1261a0 !important;
+    transform: scale(1.3);
+}

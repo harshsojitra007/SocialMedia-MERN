@@ -1,0 +1,54 @@
+.login-main-outer{
+    /* background: url("../assets/3.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.login-form{
+    display: flex;
+    height: 100% !important;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 6rem; */
+}
+form{
+    background: #fefefa !important;
+    margin: auto;
+    /* background: #89cff0 !important; */
+    padding: 2.5rem 6rem;
+    border-radius: 1rem;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.form-group{
+    margin: 0.7rem 0;
+}
+.input-label{
+    margin: 0.3rem 0;
+    color: #1261A0;
+    font-family: 'Poppins' !important;
+    font-weight: 400;
+    font-size: medium;
+}
+.form-check{
+    margin: 0.37rem 0;
+}
+.form-check-label{
+    font-family: 'Poppins' !important;
+    font-weight: 400;
+    font-size: medium;
+}
+#emailHelp{
+    font-family: 'Poppins' !important;
+    font-size: small;
+    margin-bottom: 0.35rem;
+}
+.submit-button{
+    width: 100%;
+    margin: 0.7rem 0;
+}

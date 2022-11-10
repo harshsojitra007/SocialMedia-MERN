@@ -1,0 +1,84 @@
+.signup-main-outer{
+    /* background: url("../assets/3.jpg"); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    margin-top: 58px;
+}
+.signup-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background: #fefefa;
+    /* position: relative; */
+    margin: 3rem 0;
+    padding: 2rem 5rem;
+    padding-bottom: 0.7rem;
+    border-radius: 1rem;
+    font-family: 'Poppins' !important;
+}
+.signup-profile-pic-container{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.signup-profile-pic{
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+.add-picture-icon{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: green;
+    cursor: pointer;
+    z-index: 99;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.form-group{
+    margin: 0.4rem 0;
+}
+.input-label{
+    margin: 0.3rem 0;
+    color: #1261A0;
+    font-family: 'Poppins' !important;
+    font-weight: 400;
+    font-size: medium;
+}
+.form-check{
+    margin: 0.37rem 0;
+}
+.form-check-label{
+    font-family: 'Poppins' !important;
+    font-weight: 400;
+    font-size: medium;
+}
+#emailHelp{
+    font-family: 'Poppins' !important;
+    font-size: small;
+}
+.submit-button{
+    width: 100%;
+    margin: 0.7rem 0;
+}
+
+@media (max-width: 600px){
+    form{
+        margin-top: 10%;
+        margin-bottom: 2.5rem;
+    }
+    .signup-form{
+        margin-bottom: 2rem;
+    }
+}

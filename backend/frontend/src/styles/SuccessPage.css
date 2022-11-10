@@ -1,0 +1,41 @@
+.success-page-container{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: calc(100vh - 60px) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 60px !important;
+}
+
+.success-page-card{
+    display: flex !important;
+    width: 50rem !important;
+    border-radius: .7rem !important;
+    border: 1.5px solid #89cff0;
+    /* background: rgb(139, 236, 139) !important; */
+    width: 90% !important;
+    transition: 800ms;
+}
+
+.success-page-card-body{
+    display: flex !important;
+    padding: 3rem !important;
+    text-align: center !important;
+    /* background: rgb(133, 244, 133) !important; */
+    border-radius: .7rem !important;
+    transition: 1000ms;
+}
+
+.success-page-card:hover{
+    transition: 1000ms;
+    /* box-shadow: #89cff0 0px 10px 16px 0px, #89cff0 0px 0px 0px 1px; */
+    box-shadow: #89cff0 0px 10px 36px 0px, #89cff0 0px 0px 0px 1px;
+}
+
+.success-page-card-body p{
+    font-family: 'poppins';
+    font-size: large;
+    font-weight: 400;
+}

@@ -1,0 +1,114 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row-main {
+    display: flex;
+    height: calc(100vh - 65px);
+    justify-content: center;
+    align-items: center;
+}
+
+#no-posts-id{
+    width: 100% !important;
+}
+
+.delete-icon{
+    position: relative !important;
+    display: flex !important;
+    justify-self: flex-end !important;
+    z-index: 99 !important;
+}
+
+.whole-cover-div {
+    margin-top: 58px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.whole-cover-div h1 {
+    padding: 1rem;
+    margin: 0 3rem;
+}
+
+.post-page-outer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 6rem !important; */
+    margin-bottom: 3rem !important;
+    justify-self: center;
+    align-self: center;
+    place-self: flex-start;
+}
+
+.show-users-posts {
+    display: flex;
+    place-items: center;
+    margin: 1rem auto 0;
+    width: 500px !important;
+}
+
+.curr-post {
+    width: 350px !important;
+}
+
+.like-count-p{
+    display: flex;
+    font-family: 'poppins';
+    font-size: medium;
+    font-weight: 100;
+    width: fit-content !important;
+    margin: 0 !important;
+}
+
+.red-colored{
+    color: red !important;
+}
+
+#new-comment-input{
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+#show-comments-box{
+    max-height: 200px !important;
+    overflow-y: scroll !important;
+    margin: 1rem !important;
+}
+
+#show-comments-box::-webkit-scrollbar{
+    width: 6px;
+    background: transparent;
+}
+
+#show-comments-box::-webkit-scrollbar-thumb {
+    background-color: #1261A0;
+    border-radius: 1rem;
+}
+
+.comment-actions{
+    display: flex !important;
+    flex-direction: row !important;
+    column-gap: 1rem !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.cover-button {
+    padding: .5rem 0.7rem !important;
+    margin: 0 3.5rem !important;
+    transition: 800ms !important;
+    background: #1261a0 !important;
+}
+
+.cover-button:hover {
+    transition: 800ms !important;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}

@@ -1,0 +1,166 @@
+.full-profile-outer{
+    display: flex !important;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px !important;
+}
+
+.user-profile-outer{
+    display: flex !important;
+    flex-direction: column !important;
+    min-width: 600px !important;
+    max-width: 600px !important;
+    margin: 2rem auto !important;
+    padding: 1rem 0rem;
+    border: none !important;
+}
+
+.user-profile{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start;
+    align-items: flex-start;
+    place-items: center;
+    column-gap: 3.5rem;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #1261a0;
+}
+
+.user-image-div{
+    display: flex !important;
+    width: 120px !important;
+    height:  120px !important;
+    border: 2px solid #1261a0;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    justify-content: center !important;
+    align-items: center !important;
+    place-content: center !important;
+}
+
+#user-profile-image{
+    display: flex !important;
+    width: 120px !important;
+    height:  120px !important;
+    padding: .15rem !important;
+    /* border: 2px solid #1261a0; */
+    border-radius: 50% !important;
+    object-fit: contain !important;
+}
+
+.user-overall-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-action-options{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    place-content: flex-start;
+    place-items: center;
+    column-gap: 3rem;
+    /* margin: .5rem .3rem 2rem 0; */
+    margin: .3rem 0;
+}
+
+.user-follow-edit-btn{
+    padding: .5rem 1.5rem !important;
+    border-radius: .3rem !important;
+    font-family: 'poppins' !important;
+    font-size: medium;
+    transition: 1000ms !important;
+}
+
+.user-follow-edit-btn:hover{
+    background: #1261a0;
+    color: white;
+    transition: 1000ms;
+}
+
+.user-profile-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    column-gap: 5rem;
+}
+
+.user-name{
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    font-size: xx-large;
+    font-family: 'poppins' !important;
+    font-weight: 100 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.user-general-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    place-content: flex-start;
+    column-gap: 2rem;
+    margin: .3rem 0;
+}
+
+.logged-in-user-options, .income-action-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    column-gap: 1rem;
+}
+
+.post-related-info, .mutual-connection-info, .friends-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    margin: 1rem 0;
+}
+
+.post-title, .post-count, .mutual-title, .mutual-count, .friends-count, .user-friends-title{
+    font-family: 'poppins';
+    font-size: large;
+    margin: .1rem;
+    font-weight: 100 !important;
+}
+
+.post-count, .mutual-count, .friends-count{
+    font-weight: 500 !important;
+}
+
+.user-bio{
+    display: flex;
+    font-family: 'poppins';
+    margin: .7rem 0;
+    padding: 0;
+    white-space: pre-wrap !important;
+}
+
+.user-posts-inner{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    column-gap: 1rem;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#user-profile-post-cover{
+    display: flex !important;
+    width: inherit !important;
+    height: inherit !important;
+    margin: .3rem .7rem !important;
+    cursor: pointer !important;
+    object-fit: cover !important;
+}

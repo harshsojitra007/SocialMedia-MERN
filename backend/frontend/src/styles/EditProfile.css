@@ -1,0 +1,83 @@
+.edit-profile-outer{
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    height: calc(100vh - 65px) !important;
+    width: 100% !important;
+    margin-top: 105px !important;
+}
+
+.edit-profile-inner{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    row-gap: 1rem !important;
+}
+
+.new-image-input-icon{
+    display: flex !important;
+    position: absolute !important;
+    color: green !important;
+    margin-top: 125px !important;
+    margin-left: 125px !important;
+    transform: scale(1.5);
+    cursor: pointer !important;
+}
+
+.i-green{
+    color: green !important;
+}
+
+.new-user-image-div{
+    display: flex !important;
+    border: 1.6px solid #1261a0 !important;
+    border-radius: 50% !important;
+    width: fit-content !important;
+}
+
+#new-image{
+    display: flex !important;
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 50% !important;
+    object-fit: contain !important;
+}
+
+.input-div-outer{
+    display: flex !important;
+    flex-direction: column !important;
+    row-gap: 1rem !important;
+    margin: 1rem 0 !important;
+}
+
+.new-user-name-input{
+    display: flex !important;
+    flex-direction: row !important;
+    column-gap: 1rem !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#user-name-input-status-icon{
+    color: green !important;
+}
+
+#invalid-user-name-input-status-icon{
+    color: red !important;
+}
+
+#user-new-bio-input{
+    outline: none !important;
+    border: none !important;
+    background: transparent !important;
+    padding: .5rem .7rem !important;
+    transition: 700ms !important;
+    width: 100% !important;
+    min-width: 250px !important;
+}
+
+#user-new-bio-input{
+    transition: 700ms !important;
+}

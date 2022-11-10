@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.request-sent-page{
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0;
+    width: 100% !important;
+    min-width: 400px !important;
+    justify-content: center !important;
+    align-items: center;
+    place-items: center;
+}
+
+.cancel-button{
+    transition: 800ms;
+}
+
+.cancel-button:hover{
+    transition: 800ms;
+    background: white !important;
+    color: red !important;
+}
+
+@media (max-width: 900px){
+    .sent-requests-list{
+        width: 100%;
+    }
+    .sent-requests-list-item{
+        width: 60%;
+    }
+}
+@media (max-width: 600px){
+    .sent-requests-list-item{
+        width: 80%;
+    }
+}
+@media (max-width: 400px){
+    .sent-requests-list-item{
+        width: 100%;
+    }
+    .sent-request-user-name{
+        width: 50%;
+    }
+}
